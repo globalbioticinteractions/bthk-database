@@ -26,7 +26,8 @@
       "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0008505",
       "headerRowCount": 1,
       "null": [
-        ""
+        "",
+        "N/A"
       ],
       "tableSchema": {
         "columns": [
@@ -66,7 +67,7 @@
             "datatype": "string"
           },
           {
-            "name": "Country",
+            "name": "localityName",
             "titles": "Country",
             "datatype": "string"
           },
@@ -81,7 +82,7 @@
             "datatype": "string"
           },
           {
-            "name": "Year",
+            "name": "http://rs.tdwg.org/dwc/terms/eventDate",
             "titles": "Year",
             "datatype": "string"
           },
@@ -633,6 +634,11 @@
           {
             "name": "TAG",
             "titles": "TAG",
+            "datatype": "string"
+          },
+          { 
+            "name": "",
+            "titles": "",
             "datatype": "string"
           }
         ]
