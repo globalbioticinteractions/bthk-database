@@ -1,0 +1,642 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "rdfs:comment": [
+    "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"
+  ],
+  "tables": [
+    {
+      "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"
+      ],
+      "url": "BTHK-Database_-_end_May_2021_-_website_version.tsv",
+      "dcterms:bibliographicCitation": "Bat Tree Habitat Key. 2021. Accessed in June 2021 at: http://battreehabitatkey.co.uk/?page_id=18",
+      "delimiter": "\t",
+      "interactionTypeName": "creates habitat for",
+      "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0008505",
+      "headerRowCount": 1,
+      "null": [
+        ""
+      ],
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "Tree ref",
+            "titles": "Tree ref",
+            "datatype": "string"
+          },
+          {
+            "name": "PRF ID",
+            "titles": "PRF ID",
+            "datatype": "string"
+          },
+          {
+            "name": "Inspection result",
+            "titles": "Inspection result",
+            "datatype": "string"
+          },
+          {
+            "name": "targetTaxonName",
+            "titles": "Bat species",
+            "datatype": "string"
+          },
+          {
+            "name": "Roost usage: only one species (o1s), more than one species but on different days (m1dd), more than one species on same day (m1sd)",
+            "titles": "Roost usage: only one species (o1s), more than one species but on different days (m1dd), more than one species on same day (m1sd)",
+            "datatype": "string"
+          },
+          {
+            "name": "Site name",
+            "titles": "Site name",
+            "datatype": "string"
+          },
+          {
+            "name": "County",
+            "titles": "County",
+            "datatype": "string"
+          },
+          {
+            "name": "Country",
+            "titles": "Country",
+            "datatype": "string"
+          },
+          {
+            "name": "Day",
+            "titles": "Day",
+            "datatype": "string"
+          },
+          {
+            "name": "Month",
+            "titles": "Month",
+            "datatype": "string"
+          },
+          {
+            "name": "Year",
+            "titles": "Year",
+            "datatype": "string"
+          },
+          {
+            "name": "Season",
+            "titles": "Season",
+            "datatype": "string"
+          },
+          {
+            "name": "Grid reference",
+            "titles": "Grid reference",
+            "datatype": "string"
+          },
+          {
+            "name": "sourceTaxonName",
+            "titles": "Species",
+            "datatype": "string"
+          },
+          {
+            "name": "sourcePhysiologicalStateName",
+            "titles": "Alive/dead",
+            "datatype": "string"
+          },
+          {
+            "name": "habitatName",
+            "titles": "Phase 1 habitat",
+            "datatype": "string"
+          },
+          {
+            "name": "Phase 1 code",
+            "titles": "Phase 1 code",
+            "datatype": "string"
+          },
+          {
+            "name": "sourceBodyPartName",
+            "titles": "stem/limb",
+            "datatype": "string"
+          },
+          {
+            "name": "Tree height (m)",
+            "titles": "Tree height (m)",
+            "datatype": "string"
+          },
+          {
+            "name": "PRF height (m)",
+            "titles": "PRF height (m)",
+            "datatype": "string"
+          },
+          {
+            "name": "Facing",
+            "titles": "Facing",
+            "datatype": "string"
+          },
+          {
+            "name": "PRF group",
+            "titles": "PRF group",
+            "datatype": "string"
+          },
+          {
+            "name": "PRF type",
+            "titles": "PRF type",
+            "datatype": "string"
+          },
+          {
+            "name": "Enlarged",
+            "titles": "Enlarged",
+            "datatype": "string"
+          },
+          {
+            "name": "DBH (cm)",
+            "titles": "DBH (cm)",
+            "datatype": "string"
+          },
+          {
+            "name": "DPH (cm)",
+            "titles": "DPH (cm)",
+            "datatype": "string"
+          },
+          {
+            "name": "PRF has more than one entrance to the same void",
+            "titles": "PRF has more than one entrance to the same void",
+            "datatype": "string"
+          },
+          {
+            "name": "Entrance height (cm)",
+            "titles": "Entrance height (cm)",
+            "datatype": "string"
+          },
+          {
+            "name": "Entrance width (cm)",
+            "titles": "Entrance width (cm)",
+            "datatype": "string"
+          },
+          {
+            "name": "Internal height (cm)",
+            "titles": "Internal height (cm)",
+            "datatype": "string"
+          },
+          {
+            "name": "Internal depth (cm)",
+            "titles": "Internal depth (cm)",
+            "datatype": "string"
+          },
+          {
+            "name": "Internal width (cm)",
+            "titles": "Internal width (cm)",
+            "datatype": "string"
+          },
+          {
+            "name": "Smooth",
+            "titles": "Smooth",
+            "datatype": "string"
+          },
+          {
+            "name": "Bobbly",
+            "titles": "Bobbly",
+            "datatype": "string"
+          },
+          {
+            "name": "Bumpy",
+            "titles": "Bumpy",
+            "datatype": "string"
+          },
+          {
+            "name": "Rough",
+            "titles": "Rough",
+            "datatype": "string"
+          },
+          {
+            "name": "Clean",
+            "titles": "Clean",
+            "datatype": "string"
+          },
+          {
+            "name": "Waxy",
+            "titles": "Waxy",
+            "datatype": "string"
+          },
+          {
+            "name": "stained / discoloured",
+            "titles": "stained / discoloured",
+            "datatype": "string"
+          },
+          {
+            "name": "Polished",
+            "titles": "Polished",
+            "datatype": "string"
+          },
+          {
+            "name": "Messy",
+            "titles": "Messy",
+            "datatype": "string"
+          },
+          {
+            "name": "Dusty",
+            "titles": "Dusty",
+            "datatype": "string"
+          },
+          {
+            "name": "Debris",
+            "titles": "Debris",
+            "datatype": "string"
+          },
+          {
+            "name": "Sludgy / slimey",
+            "titles": "Sludgy / slimey",
+            "datatype": "string"
+          },
+          {
+            "name": "Dry",
+            "titles": "Dry",
+            "datatype": "string"
+          },
+          {
+            "name": "Damp",
+            "titles": "Damp",
+            "datatype": "string"
+          },
+          {
+            "name": "Wet",
+            "titles": "Wet",
+            "datatype": "string"
+          },
+          {
+            "name": "Dome",
+            "titles": "Dome",
+            "datatype": "string"
+          },
+          {
+            "name": "Spire",
+            "titles": "Spire",
+            "datatype": "string"
+          },
+          {
+            "name": "Peak/wedge",
+            "titles": "Peak/wedge",
+            "datatype": "string"
+          },
+          {
+            "name": "Flat",
+            "titles": "Flat",
+            "datatype": "string"
+          },
+          {
+            "name": "Chambered",
+            "titles": "Chambered",
+            "datatype": "string"
+          },
+          {
+            "name": "Tube",
+            "titles": "Tube",
+            "datatype": "string"
+          },
+          {
+            "name": "Competitors visible (y/n)",
+            "titles": "Competitors visible (y/n)",
+            "datatype": "string"
+          },
+          {
+            "name": "Woodlice",
+            "titles": "Woodlice",
+            "datatype": "string"
+          },
+          {
+            "name": "dusky slug",
+            "titles": "dusky slug",
+            "datatype": "string"
+          },
+          {
+            "name": "yellow slug",
+            "titles": "yellow slug",
+            "datatype": "string"
+          },
+          {
+            "name": "unidentified / other slug",
+            "titles": "unidentified / other slug",
+            "datatype": "string"
+          },
+          {
+            "name": "garden snail",
+            "titles": "garden snail",
+            "datatype": "string"
+          },
+          {
+            "name": "lipped snail",
+            "titles": "lipped snail",
+            "datatype": "string"
+          },
+          {
+            "name": "unidentified snail",
+            "titles": "unidentified snail",
+            "datatype": "string"
+          },
+          {
+            "name": "Cave spider",
+            "titles": "Cave spider",
+            "datatype": "string"
+          },
+          {
+            "name": "Harvestman",
+            "titles": "Harvestman",
+            "datatype": "string"
+          },
+          {
+            "name": "Unidentified spider",
+            "titles": "Unidentified spider",
+            "datatype": "string"
+          },
+          {
+            "name": "spider's web",
+            "titles": "spider's web",
+            "datatype": "string"
+          },
+          {
+            "name": "spider egg-sac",
+            "titles": "spider egg-sac",
+            "datatype": "string"
+          },
+          {
+            "name": "Flies",
+            "titles": "Flies",
+            "datatype": "string"
+          },
+          {
+            "name": "Harlequin ladybird(s)",
+            "titles": "Harlequin ladybird(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "Bat-fly pupae",
+            "titles": "Bat-fly pupae",
+            "datatype": "string"
+          },
+          {
+            "name": "Wood ants",
+            "titles": "Wood ants",
+            "datatype": "string"
+          },
+          {
+            "name": "Unidentified ants",
+            "titles": "Unidentified ants",
+            "datatype": "string"
+          },
+          {
+            "name": "Wasp(s)",
+            "titles": "Wasp(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "Wasp-nest",
+            "titles": "Wasp-nest",
+            "datatype": "string"
+          },
+          {
+            "name": "Hornet(s)",
+            "titles": "Hornet(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "Hornets-nest",
+            "titles": "Hornets-nest",
+            "datatype": "string"
+          },
+          {
+            "name": "Honey bees",
+            "titles": "Honey bees",
+            "datatype": "string"
+          },
+          {
+            "name": "Tree bumblebee(s)",
+            "titles": "Tree bumblebee(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "Unidentified bee(s)",
+            "titles": "Unidentified bee(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "Beetle(s)",
+            "titles": "Beetle(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "earwig(s)",
+            "titles": "earwig(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "millipede(s)",
+            "titles": "millipede(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "centipede(s)",
+            "titles": "centipede(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "worm(s)",
+            "titles": "worm(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "Butterfly(s)",
+            "titles": "Butterfly(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "Moth(s)",
+            "titles": "Moth(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "toad",
+            "titles": "toad",
+            "datatype": "string"
+          },
+          {
+            "name": "blue tit(s)",
+            "titles": "blue tit(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "great tit(s)",
+            "titles": "great tit(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "wren(s)",
+            "titles": "wren(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "nuthatch(es)",
+            "titles": "nuthatch(es)",
+            "datatype": "string"
+          },
+          {
+            "name": "nuthatch mud",
+            "titles": "nuthatch mud",
+            "datatype": "string"
+          },
+          {
+            "name": "jackdaw(s)",
+            "titles": "jackdaw(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "green woodpecker(s)",
+            "titles": "green woodpecker(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "great spotted woodpecker(s) (bird or chips)",
+            "titles": "great spotted woodpecker(s) (bird or chips)",
+            "datatype": "string"
+          },
+          {
+            "name": "Barn owl(s)",
+            "titles": "Barn owl(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "Bird droppings",
+            "titles": "Bird droppings",
+            "datatype": "string"
+          },
+          {
+            "name": "Bird feathers / down",
+            "titles": "Bird feathers / down",
+            "datatype": "string"
+          },
+          {
+            "name": "Bird nest",
+            "titles": "Bird nest",
+            "datatype": "string"
+          },
+          {
+            "name": "grey squirrel(s)",
+            "titles": "grey squirrel(s)",
+            "datatype": "string"
+          },
+          {
+            "name": "grey squirrel gnawing",
+            "titles": "grey squirrel gnawing",
+            "datatype": "string"
+          },
+          {
+            "name": "grey squirrel nest",
+            "titles": "grey squirrel nest",
+            "datatype": "string"
+          },
+          {
+            "name": "dormouse / dormice",
+            "titles": "dormouse / dormice",
+            "datatype": "string"
+          },
+          {
+            "name": "dormouse nest",
+            "titles": "dormouse nest",
+            "datatype": "string"
+          },
+          {
+            "name": "woodmouse / woodmice",
+            "titles": "woodmouse / woodmice",
+            "datatype": "string"
+          },
+          {
+            "name": "woodmouse nest",
+            "titles": "woodmouse nest",
+            "datatype": "string"
+          },
+          {
+            "name": "Other (n: none present. If something is present, name it)",
+            "titles": "Other (n: none present. If something is present, name it)",
+            "datatype": "string"
+          },
+          {
+            "name": "photo",
+            "titles": "photo",
+            "datatype": "string"
+          },
+          {
+            "name": "First Recorder",
+            "titles": "First Recorder",
+            "datatype": "string"
+          },
+          {
+            "name": "Second Recorder",
+            "titles": "Second Recorder",
+            "datatype": "string"
+          },
+          {
+            "name": "Also present",
+            "titles": "Also present",
+            "datatype": "string"
+          },
+          {
+            "name": "comments",
+            "titles": "comments",
+            "datatype": "string"
+          },
+          {
+            "name": "Minimum number of bats",
+            "titles": "Minimum number of bats",
+            "datatype": "string"
+          },
+          {
+            "name": "Above (a), below (b) or to side (s) of entrance",
+            "titles": "Above (a), below (b) or to side (s) of entrance",
+            "datatype": "string"
+          },
+          {
+            "name": "Approximate distrance from entrance (cm)",
+            "titles": "Approximate distrance from entrance (cm)",
+            "datatype": "string"
+          },
+          {
+            "name": "Smell: Description",
+            "titles": "Smell: Description",
+            "datatype": "string"
+          },
+          {
+            "name": "Smell: None",
+            "titles": "Smell: None",
+            "datatype": "string"
+          },
+          {
+            "name": "Smell: Pleasant",
+            "titles": "Smell: Pleasant",
+            "datatype": "string"
+          },
+          {
+            "name": "Smell: Not unpleasant",
+            "titles": "Smell: Not unpleasant",
+            "datatype": "string"
+          },
+          {
+            "name": "Smell: Unpleasant / Repellent",
+            "titles": "Smell: Unpleasant / Repellent",
+            "datatype": "string"
+          },
+          {
+            "name": "DNA Result",
+            "titles": "DNA Result",
+            "datatype": "string"
+          },
+          {
+            "name": "TAG",
+            "titles": "TAG",
+            "datatype": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
